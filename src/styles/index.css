@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold: #D4A843;
+  --color-gold-light: #FAEB86;
+  --color-gold-dark: #B8922E;
+}
+
+body {
+  @apply bg-gray-950 text-gray-100 min-h-screen;
+}
+
+/* Custom scrollbar for category tabs */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
